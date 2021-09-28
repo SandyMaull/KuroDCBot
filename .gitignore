@@ -1,0 +1,8 @@
+__pycache__/
+.vscode/
+etc/
+.env
+pyvenv.cfg
+share
+Include
+Lib
