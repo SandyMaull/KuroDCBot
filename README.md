@@ -13,4 +13,5 @@ Feature including:
 
 
 Thanks to <a href="https://www.albion-online-data.com">albion online data</a>, for making a beautiful API.
+
 Thanks to <a href="https://github.com/pedroslopez/whatsapp-web.js">whatsapp-web.js</a>, for making a nice and simple library.
