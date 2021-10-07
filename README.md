@@ -4,7 +4,7 @@ Simple Discord Bot for Hooman, by Kuro.
 A discord multipurpose bot for personal use.
 
 Feature including:
-1. Music Feature (Done, but still on development)
+1. Music (Done, but still on development)
 2. Albion Item list & Tracking Price (Done, but still on development)
 3. Albion "Rice" Market (On Progress)
 4. Albion Silver Market (On Progress)
