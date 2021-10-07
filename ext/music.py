@@ -63,16 +63,16 @@ class music(commands.Cog):
     @commands.command()
     async def pause(self, ctx):
         if checkdata():
-            await ctx.voice_client.pause()
             await ctx.send("paused")
+            await ctx.voice_client.pause()
         else:
             return
 
     @commands.command()
     async def resume(self, ctx):
         if checkdata():
-            await ctx.voice_client.resume()
             await ctx.send("resume")
+            await ctx.voice_client.resume()
         else:
             return
 

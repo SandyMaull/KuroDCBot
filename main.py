@@ -9,6 +9,7 @@ from ext.db_module import connection
 from ext.db_module import create_config
 from ext.db_module import fetch
 from ext.db_module import update
+from discord_components import DiscordComponents
 import json
 
 load_dotenv()
@@ -16,9 +17,12 @@ cogs = [music]
 albioncogs_item = [item]
 client = commands.Bot(command_prefix='?', intents = discord.Intents.all())
 
+# create_config.create()
+
 @client.event
 async def on_ready():
     print("{0.user} successful log in! ".format(client))
+    DiscordComponents(client)
 
 def checkdata():
     debug_stats = fetch.one("config", 'name', 'DEBUG')

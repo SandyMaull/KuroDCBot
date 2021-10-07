@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\HP\Desktop\Code\KuroDCBot"
+VIRTUAL_ENV="D:\laragon\www\KuroDCBot"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
